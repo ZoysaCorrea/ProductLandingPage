@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>ProductLandingPage</title>
+    </head>
+    <body> 
+        <header id="header">
+            
+            <nav id="nav-bar">                
+                <ul>     
+                    <img src="logo.png" id="header-img">           
+                    <a href="#"><li class="nav-link">Features</li></a>
+                    <a href="#"><li class="nav-link">How it works</li></a>
+                    <a href="#"><li class="nav-link">Pricing</li></a>
+                </ul>
+            </nav>    
+        </header> 
+
+        <div id="video">
+            <embed src="https://youtu.be/y8Yv4pnO7qc" id="video">
+        </div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST" name="email-submit">
+            <label for="email">Email id:
+            <input type="email" placeholder="Enter your Email id here" id="email" pattern=".+@gmail.com" size="30" required />
+            <input type="submit" id="submit" onclick="submitFunction()">
+            <p id="submitted"></p>
+        </form>
+
+        <div id="products">
+            <div class="item">
+                <div class="product-name">TENOR TROMBONE</div>
+                <h2> &#8377;500</h2>
+                <img src="product.jfif" alt="TROMBONE" class="product-img">
+                <ul class="product-desc-ul">
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button class="select-btn">Select</button>
+            </div>
+            <div class="item">
+                <div class="product-name">BASS TROMBONE</div>
+                <h2> &#8377;600</h2>
+                <img src="product.jfif" alt="TROMBONE" class="product-img">
+                <ul class="product-desc-ul">
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button class="select-btn">Select</button>
+            </div>
+            <div class="item">
+                <div class="product-name">VALVE TROMBONE</div>
+                <h2> &#8377;800</h2>
+                <img src="product.jfif" alt="TROMBONE" class="product-img">
+                <ul class="product-desc-ul">
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
+                <button class="select-btn">Select</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
